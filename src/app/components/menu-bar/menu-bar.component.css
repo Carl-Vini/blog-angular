@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 230px 0 225px;
+    gap: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+section {
+
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: first baseline;
+    align-items: flex-start;
+    gap: 15px;
+    height: 800px;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+div {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+span {
+    color: gray;
+}
