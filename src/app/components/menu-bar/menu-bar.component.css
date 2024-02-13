@@ -1,12 +1,25 @@
 header {
     display: flex;
-    justify-content: space-around;
-    padding: 0 230px 0 225px;
-    gap: 30px;
+    justify-content: space-between;
+    padding: 30px 230px 0 225px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 80px;
+    border-radius: 60%;
+    height: 35px;
+}
+
+nav {
+    display: flex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 30px;
+    align-items: center;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
 }
+

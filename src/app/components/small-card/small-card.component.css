@@ -1,14 +1,17 @@
 section {
     display: flex;
-   
-    width: 100%;
-    padding-left: 30px;
+    width: 700px;
+    
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    margin-left: 25px;
     padding-bottom: 20px;
     
 }
 
 img {
     width: 200px;
+    border-radius: 5px;
 }
 
 div {
