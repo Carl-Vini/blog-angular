@@ -1,7 +1,9 @@
 <section *ngFor="let p of noticias; let i ">
+    <a [routerLink]="['content', p.Id]">
     <img src={{p.img}} alt="">
     <div>
     <span>{{p.autor}}</span>
     <h2>{{p.titulo}}</h2>
     </div>
+</a>
 </section>

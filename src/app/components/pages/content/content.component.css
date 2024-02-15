@@ -1,0 +1,33 @@
+.container {
+    margin-top: 30px;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+}
+
+.content__cover > img {
+    width: 920px;
+    height: 500px;
+    border: 3px solid rgb(144, 144, 144);
+    border-radius: 5px;
+}
+
+.content__title {
+    font-size: 30px;
+   
+}
+
+.content__description {
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.content__description > p {
+    padding-bottom: 10px;
+    
+}
