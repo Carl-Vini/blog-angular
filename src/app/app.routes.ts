@@ -7,10 +7,15 @@ export const routes: Routes = [
     {
         path: '',
         component: HomeComponent,
-        title: 'home'
+        title: 'home',
+        pathMatch:'full'
     },
     {
         path: 'content/:id',
         component: ContentComponent
+    },
+    {
+        path: '**',
+        redirectTo: ''
     }
 ];
